@@ -1,6 +1,6 @@
 # Cluster Provision Prerequisites Tool Script
 
-#List Of Tools and Versions installing using the script 
+#List Of Tools and Versions install using this script 
 Kubectl v1.22.0
 Terraform v1.3.5
 Terragrunt v0.41.0 
