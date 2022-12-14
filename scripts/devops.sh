@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
 sudo rm -rf /tmp/devops.txt
 sudo rm -rf /tmp/nohup.out
 sudo rm -rf progre.sh
