@@ -19,7 +19,7 @@ echo ""
 ########################################################################
 echo "Kubetcl Installion InProgess"
 sleep 1
-nohup curl -LO  https://storage.googleapis.com/kubernetes-release/release/v1.22.0/bin/linux/amd64/kubectl &> /tmp/devops.txt
+nohup curl -LO  https://s3.us-west-2.amazonaws.com/amazon-eks/1.23.13/2022-10-31/bin/linux/amd64/kubectl &> /tmp/devops.txt
 nohup sudo chmod +x ./kubectl &> /tmp/devops.txt
 sudo mv ./kubectl /usr/local/bin/kubectl
 ./progre.sh 20
